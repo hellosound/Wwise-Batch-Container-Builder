@@ -2,6 +2,8 @@
 
 Python + WAAPI + PySide6 tool for grouping existing Wwise `Sound` objects or external WAV files and placing them in Random, Sequence, Blend, or Actor-Mixer parents.
 
+![image alt](https://github.com/hellosound/Wwise-Batch-Container-Builder/blob/0fa1df6e8edf5314c0e2e9f0403e822048518a66/header.png)
+
 ## Current architecture
 
 ```text
