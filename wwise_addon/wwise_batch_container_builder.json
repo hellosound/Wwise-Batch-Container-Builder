@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "commands": [
+    {
+      "id": "wwise_batch_container_builder.open",
+      "displayName": "Wwise Batch Container Builder",
+      "program": "python",
+      "startMode": "SingleProcess",
+      "args": "\"${WwiseProjectRoot}/Scripts/WwiseBatchContainerBuilder/main.py\"",
+      "redirectOutputs": true,
+      "contextMenu": {
+        "basePath": "WAAPI"
+      }
+    }
+  ]
+}
+ 
