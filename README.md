@@ -56,6 +56,8 @@ weapon_v2_fire_002  -> weapon_v2_fire
 
 Sequence groups require a numeric suffix and are sorted numerically (`1, 2, 10`).
 
+The tool automatically ignores files that should not go into any container by leaving out files that don't share any names with others.
+
 ## WAV import workflow
 
 1. In Wwise, select exactly one destination parent object.
@@ -97,7 +99,10 @@ Compile/import smoke check:
 python -m compileall -q src main.py
 python -c "import main; print('import OK')"
 ```
+## Agents.md
 
-## V1 limitations
+An Agents.md file is provided in case you're using any AI agent, should work with any agent.
 
-Blend containers are created as basic `BlendContainer` objects; advanced Blend Track, RTPC, Switch Container, Event, recursive-folder, and naming-preset workflows are intentionally outside V1.
+## Possible improvements
+
+- Blend containers are created as basic `BlendContainer` objects; advanced Blend Track, RTPC, Switch Container, Event, recursive-folder, and naming-preset workflows are intentionally outside V 1.0 and can be added in future versions, feel free to fork send a PR if you have any improvements for it.
