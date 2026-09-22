@@ -105,4 +105,10 @@ An Agents.md file is provided in case you're using any AI agent, should work wit
 
 ## Possible improvements
 
-- Blend containers are created as basic `BlendContainer` objects; advanced Blend Track, RTPC, Switch Container, Event, recursive-folder, and naming-preset workflows are intentionally outside V 1.0 and can be added in future versions, feel free to fork send a PR if you have any improvements for it.
+- Blend containers are created as basic `BlendContainer` objects; advanced Blend Track can be added in future releases.
+- RTPC, Switch Container, Event, recursive-folder, and naming-preset workflows.
+- Set-up this tool as a 'Command Add-on' in Wwise so there is no need to compile from any IDE when the need for use exists. a JSON template is provided in advance. See 'wwise_addon->wwise_batch_container_builder.json'.
+
+
+Feel free to fork send a PR if you have any improvements for it.
+
